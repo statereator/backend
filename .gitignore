@@ -1,0 +1,45 @@
+### Ignore root project directories ###
+.gradle
+.github
+.vscode
+build
+
+### Ignore subprojects directories ###
+**/.gradle
+**/.github
+**/.vscode
+**/build
+
+### Ignore bin and out directories in subprojects ###
+**/bin
+**/out
+**/src/main/**/bin
+**/src/test/**/bin
+**/src/main/**/out
+**/src/test/**/out
+
+### Ignore sensitive data ###
+.env
+!example.env
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
